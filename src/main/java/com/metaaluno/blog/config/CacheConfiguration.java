@@ -50,6 +50,8 @@ public class CacheConfiguration {
             createCache(cm, com.metaaluno.blog.domain.User.class.getName());
             createCache(cm, com.metaaluno.blog.domain.Authority.class.getName());
             createCache(cm, com.metaaluno.blog.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.metaaluno.blog.domain.Meta.class.getName());
+            createCache(cm, com.metaaluno.blog.domain.Aluno.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
